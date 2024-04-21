@@ -1,0 +1,129 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Frank Mosehla</title>
+    <link rel="stylesheet" type="text/css" href="../bootstrap.min.css">
+    <link rel="stylesheet" href="../css/porforlio.css">
+    <link rel="stylesheet" href="../css/animate.min.css">
+    <link rel="stylesheet" href="../fonts/remixicon.css">
+    <link rel="stylesheet" href="../font_icons/fontawesome-free-6.4.2-web/css/all.min.css">
+</head>
+<body>
+    <nav class="mx-2 my-2 animate__animated animate__fadeInDown">
+        <div class="container d-flex justify-content-between py-2 px-lg-2 px-4">
+            <div class="logo my-1">
+                <div> <span class="pro">Pro</span><span>Lancer</span> </div>
+            </div>
+            <div class="d-lg-none my-2" style="font-size: 24px;">
+                <span><i class="ri-menu-2-line"></i></span>
+            </div>
+            <ul class="d-none d-lg-flex list-unstyled nav-list my-2">
+                <li>
+                    <button class="btn nav-btn" onclick="window.location.href = `../index.html`">Home</button>
+                </li>
+                <li>
+                    <button class="btn nav-btn" onclick="window.location.href = `../pages/about.html`">About</button>
+                </li>
+                <li>
+                    <button class="btn contact-btn" onclick="window.location.href = `../pages/contact.html`">Contact</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="header-section py-4">
+        <div class="container">
+            <div class="d-flex justify-content-center text-white">
+                <p class="display-6">Contact Me</p>
+            </div>
+            <div class="row d-flex my-5 justify-content-between">
+                <div class="col-12 col-lg-6">
+                    <div class="d-flex justify-content-center align-items-center" style="margin-top: 85px;">
+                        <div class="text-white">
+                            <ul class="list-unstyled contact-list">
+                                <li><i class="ri-facebook-fill"></i> <span class="facebook"></span> </li>
+                                <li><i class="ri-github-fill"></i> <span class="github"></span> </li>
+                                <li><i class="ri-mail-line"></i> <span class="email"></span> </li>
+                                <li><i class="ri-phone-line"></i> <span class="phone"></span> </li>
+                                <li><i class="ri-whatsapp-line"></i> <span class="whatsapp"></span> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+
+                    <script>
+                        document.querySelector('.facebook').innerHTML = 'WhoIdFrankie Scott';
+                        document.querySelector('.github').innerHTML = 'Frankiescott788';
+                        document.querySelector('.email').innerHTML = 'scottfrankie864@gmail.com';
+                        document.querySelector('.whatsapp').innerHTML = '067 155 7474';
+                        document.querySelector('.phone').innerHTML = '067 155 7474'
+                    </script>
+
+                </div>
+                <div class="col-12 col-lg-4 my-3">
+                    <form action="https://formspree.io/f/xqkrwayy" method="post" class="bg-white form p-4 mt-4 rounded">
+                        <label>Name</label><br/>
+                        <input type="text" name="name" class="form-control" placeholder="e.g Frank" required><br/>
+                        <label>Surname</label><br/>
+                        <input type="text" name="surname" class="form-control" placeholder="e.g Mosehla" required><br/>
+                        <label>Email Address</label><br/>
+                        <input type="email" name="email" class="form-control" placeholder="scottfrankie@gmail.com" required>
+                        <label>Message</label><br/>
+                        <textarea class="form-control" name="message" placeholder="message here" required>
+                            
+                        </textarea>
+                        <div class="d-flex justify-content-center py-3">
+                            <button class="btn" style="background: #2a60ff; padding-inline: 70pt; color: white;">Submit</button>
+                        </div>
+                    </form>
+                </div>
+
+               
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-2">
+        <div class="container">
+            <div class="row d-block d-lg-flex justify-content-between">
+                <div class="col-12 col-lg-3">
+                    <div class="text-center text-lg-start">
+                        <div class="mt-2">
+                            <h4>Address</h4>
+                        </div>
+                        <ul class="list-unstyled address-list">
+
+                        </ul>
+                    </div> 
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="text-center text-lg-start">
+                        <div class="mt-2">
+                            <h4>Navigation</h4>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div> 
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="text-center text-lg-start">
+                        <div class="mt-2">
+                            <h4>Contact</h4>
+                        </div>
+                        <ul class="list-unstyled footer-contact-details"></ul>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <span> &copy; ProLancer 2024 </span> 
+            </div>
+        </div>
+    </footer>
+
+    <script src="../bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

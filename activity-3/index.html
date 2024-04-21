@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Frank Mosehla</title>
+        
+    <link rel="stylesheet" type="text/css" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./css/porforlio.css">
+    <link rel="stylesheet" href="./css/animate.min.css">
+    <link rel="stylesheet" href="./fonts/remixicon.css">
+    <link rel="stylesheet" href="./font_icons/fontawesome-free-6.4.2-web/css/all.min.css">
+</head>
+<body>
+    <nav class="mx-2 my-2 animate__animated animate__fadeInDown">
+        <div class="container d-flex justify-content-between py-2 px-lg-2 px-4">
+            <div class="logo my-1">
+                <div> <span class="pro">Pro</span><span>Lancer</span> </div>
+            </div>
+            <div class="d-lg-none my-2" style="font-size: 24px;">
+                <span><i class="ri-menu-2-line"></i></span>
+            </div>
+            <ul class="d-none d-lg-flex list-unstyled nav-list my-2">
+                <li>
+                    <button class="btn nav-btn">Home</button>
+                </li>
+                <li>
+                    <button class="btn nav-btn" onclick="window.location.href = `./pages/about.html`">About</button>
+                </li>
+                <li>
+                    <button class="btn contact-btn" onclick="window.location.href = `./pages/contact.html`">Contact</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="header-section py-4">
+        <div class="container mt-4">
+            <div class="row d-flex my-5 justify-content-center">
+                <div class="col-12 my-3">
+                    <div class="d-flex justify-content-center my-4">
+                                                <iframe width="853" height="480" src="https://www.youtube.com/embed/98BzS5Oz5E4?list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE" title="MERN Stack Tutorial #1 - What is the MERN Stack?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-3">
+        <div class="container">
+            <div class="row d-block d-lg-flex">
+                <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center py-3">
+                    <div class="mt-5">
+                        <h1 class="display-6" id="name_surname"></h1>
+                        <p id="bio"></p>
+                        <div>
+                            <button class="btn read-more-btn" onclick="window.location.href = `./pages/about.html`">Read More <i class="ri-arrow-right-line"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div>
+                        <img src="./pictures/frankie-removebg-preview.png" alt="" class="img-fluid about-me-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-2">
+        <div class="container">
+            <div class="row d-block d-lg-flex justify-content-between">
+                <div class="col-12 col-lg-3">
+                    <div class="text-center text-lg-start">
+                        <div class="mt-2">
+                            <h4>Address</h4>
+                        </div>
+                        <ul class="list-unstyled address-list">
+                            
+                        </ul>
+                    </div> 
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="text-center text-lg-start">
+                        <div class="mt-2">
+                            <h4>Navigation</h4>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div> 
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="text-center text-lg-start">
+                        <div class="mt-2">
+                            <h4>Contact</h4>
+                        </div>
+                        <ul class="list-unstyled footer-contact-details"></ul>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <span> &copy; ProLancer 2024 </span> 
+            </div>
+        </div>
+    </footer>
+
+    <script src="./bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
