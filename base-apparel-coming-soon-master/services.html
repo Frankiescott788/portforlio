@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="./Assest/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="./Assest/css/animate.min.css">
+	  <link rel="stylesheet" href="./Assest/css/style.css">
+	  <link rel="stylesheet" type="text/css" href="./fontawesome-free-6.4.2-web/css/all.min.css">
+	  <link rel="stylesheet" type="text/css" href="./fonts/remixicon.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body style="background-image: url('./Assest/images/bg-pattern-desktop.svg'); background-repeat: no-repeat; background-size: cover;">
+
+	<section >
+		<div class="container">
+			<div class="d-flex justify-content-center">
+				<span class="display-5 mt-4">
+					Services
+				</span>
+			</div>
+			<div class="row d-flex justify-content-between" style="margin-top: 150px;">
+				<div class="col-6">
+					<div>
+            <p id="desc">
+            </p>
+            <div class="d-block my-3">
+							<button onclick="window.location.href = `about.html`" class="btn  px-5 text-white" style="background: #f9977b; border-radius: 50pt; box-shadow: 0px 17px 24px -10px #f9977b;">About Us</button>
+							<button class="btn mr-3 mx-2 " style="border : 2px solid #f9977b ; color: #f9977b; border-radius : 50pt; " onclick="window.location.href = 'index.html'">Back to home page</button>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-6">
+					<div>
+            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+
+    <dotlottie-player src="https://lottie.host/9dfb6dce-af5e-4b3a-9faf-e775554800ba/bzifleROur.json" background="transparent" speed="1" style="width: 300px; height: 300px; margin-left:130px" loop autoplay></dotlottie-player>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<script type="text/javascript">
+  let description  = `we're all about providing a fabulous fashion experience! We offer curated collections that reflect the latest trends while keeping your individuality in mind. Whether you shop online or visit us in-store (details coming soon!), you'll enjoy a seamless experience with helpful staff ready to answer questions, offer styling advice, and help you find the perfect outfit. Sign up for our email for exclusive discounts, early access to sales, and insider fashion tips. Plus, we make shopping stress-free with hassle-free returns. But that's not all! We're constantly innovating to bring you exciting services like personalized styling consultations and virtual try-on technology (if applicable). We're committed to making your fashion journey fun, convenient, and empowering`;
+  document.getElementById('desc').innerHTML = description
+</script>
+</body>
+</html>

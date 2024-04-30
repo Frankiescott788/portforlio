@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="./Assest/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="./Assest/css/animate.min.css">
+	  <link rel="stylesheet" href="./Assest/css/style.css">
+	  <link rel="stylesheet" type="text/css" href="./fontawesome-free-6.4.2-web/css/all.min.css">
+	  <link rel="stylesheet" type="text/css" href="./fonts/remixicon.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+</head>
+<body style="background-image: url('./Assest/images/bg-pattern-desktop.svg'); background-repeat: no-repeat; background-size: cover;">
+
+	<section >
+		<div class="container">
+			<div class="d-flex justify-content-center">
+				<span class="display-5 mt-4">
+					About Us
+				</span>
+			</div>
+			<div class="row d-flex justify-content-between" style="margin-top: 200px;">
+				<div class="col-6">
+					<div>
+						<p id="desc" class="text-black">
+
+					</p>
+						<div class="d-block my-3">
+							<button onclick="window.location.href = `services.html`" class="btn  px-5 text-white" style="background: #f9977b; border-radius: 50pt; box-shadow: 0px 17px 24px -10px #f9977b;">Our Services</button>
+							<button class="btn mr-3 mx-2 " style="border : 2px solid #f9977b ; color: #f9977b; border-radius : 50pt; " onclick="window.location.href = 'index.html'">Back to home page</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-6">
+					<div>
+						<img src="./Assest/images/logo.svg" style="height: 20vh; object-fit: cover;" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+	<script type="text/javascript">
+	  let description  = `We're a brand new fashion store bursting onto the scene, and we're bringing the latest trends and styles straight to your wardrobe! We're currently putting the finishing touches on everything, and we can't wait to share it all with you. Want to be the first to know when we launch and score exclusive deals? Drop your email in the signup below and stay in the loop. In the meantime, follow us on social media for sneak peeks, style inspiration, and a taste of what's to come – we promise it'll be fashion-forward and totally fabulous!`;
+	  document.getElementById('desc').innerHTML = description
+	</script>
+</body>
+</html>
